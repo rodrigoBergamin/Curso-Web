@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Primeira página</title>
+
+	<meta name="author"    content="Rodrigo Bergamin">
+	<meta name="generator" content="Eclipse IDE">
+	<meta name="Keywords" content="Pagina HTML, curso web">
+	<meta name="description" content="Primeira página HTML 5 teste">
+	<meta name="application-name" content="Distribuidora de bebidas">
+	
+	<meta http-equiv="refresh" content="5">
+	
+	<script>
+		function sorteioNumero(){
+			resultado.innerHTML = Math.random() * 50;
+		}
+		
+		window.onload = sorteioNumero;
+		
+	</script>
+
+</head>
+<body>
+	<p id="resultado"></p>
+</body>
+</html>
